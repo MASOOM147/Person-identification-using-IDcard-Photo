@@ -39,5 +39,27 @@ To get started with this project, follow these installation steps:
 ## Install r requirements:
  Install the required Python libraries using pip:
 
-  ```shell
-  pip install -r requirements.txt
+    ```shell
+     pip install -r requirements.txt
+
+## Usage
+You can simply Download the notebook and edit paths and photos according to your directories or
+You can use this code to perform person identity detection and verification. Modify the input images, adjust the similarity threshold, and experiment with different use cases. Here's an example of how to use the code:
+
+      ```python
+      # Example usage code snippet
+      import cv2
+      
+      # Load and compare two images
+      image1 = cv2.imread('image1.jpg')
+      image2 = cv2.imread('image2.jpg')
+      result = compare(image1, image2)
+      
+      # Print the result
+      if result:
+          print("The faces are a match!")
+      else:
+          print("The faces are not a match.")
+
+## Evaluation
+The provided code includes an evaluation section where you can test the model's performance on sample image pairs. Results are visualized using a confusion matrix.
