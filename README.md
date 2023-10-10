@@ -76,5 +76,4 @@ Contributions are welcome! If you'd like to contribute to this repository, here'
 Please make sure to follow the project's code of conduct and guidelines when contributing.
 
 ## Contact
-helu
 If you have any questions, suggestions, or just want to connect, you can reach me at [mmasoomedu1@gmail.com]. You can also find me on GitHub as [MASOOM147](https://github.com/MASOOM147).
